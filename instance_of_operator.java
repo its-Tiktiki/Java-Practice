@@ -3,5 +3,8 @@ public class instance_of_operator {
         String name = "rohan";
         System.out.println(name instanceof String);
 
+        String name2 = "arpa";
+        System.out.println(name2 instanceof String);
+
     }
 }
