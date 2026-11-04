@@ -6,7 +6,6 @@ class ScannerPractice {
         int a = sc.nextInt();
         System.out.println("The number is " + a);
         
-        
     }
     
 }
