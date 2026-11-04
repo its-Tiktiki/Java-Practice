@@ -7,6 +7,7 @@ public class instance_of_operator {
         System.out.println(name2 instanceof String);
 
         System.out.println(name.length());
+        
 
     }
 }
