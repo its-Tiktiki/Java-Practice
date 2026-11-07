@@ -8,7 +8,7 @@ public class try_exception {
             int a = sc.nextInt();
         }
         catch(InputMismatchException e){
-            System.out.println("You must input an integer");
+            System.out.println(e.getMessage());
         }
         finally{
             System.out.println("Program ended");
