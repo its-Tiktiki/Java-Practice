@@ -21,5 +21,22 @@ class Loop{
             }
             System.out.println();
         }
+
+        // labels of loop
+
+        outer: for(int i = 1; i <= 5; i++){
+            inner: for(int j = 1; j <= 5; j++){
+                if(i == 3 && j == 3)
+                    break outer;
+                System.out.println(i + " " + j);
+            }
+        }
+
+        outer: if(true){
+            inner: if(true){
+                System.out.println("hello");
+                break outer;
+            }
+        }
     }
 }
