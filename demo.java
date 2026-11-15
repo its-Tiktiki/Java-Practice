@@ -20,5 +20,20 @@ public class demo{
 
     main();
 
+    
+    int i = 1;
+    if(i < 5)
+        System.out.println("3 is greater than 2");
+        System.out.println("3 is greater than 2");
+        i++;
+    System.out.println("i is: " + i);
+
+
+    for(int j = 0; j < 5; j++)
+        System.out.println("j is: " + j);
+        /* System.out.println("j is: " + j);   for any loop without curly braces, it counts one statement after the loop
+        as its block statement*/
+    
+
     }
 }
