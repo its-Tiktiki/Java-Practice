@@ -26,17 +26,18 @@ class Loop{
 
         outer: for(int i = 1; i <= 5; i++){
             inner: for(int j = 1; j <= 5; j++){
-                if(i == 3 && j == 3)
-                    break outer;
-                System.out.println(i + " " + j);
+                if(j == 4){
+                    System.out.println("inner loop break");
+                    break;}
+                System.out.println("outside inner loop");
             }
         }
 
-        outer: if(true){
-            inner: if(true){
-                System.out.println("hello");
-                break outer;
-            }
-        }
+        // outer: if(true){
+        //     inner: if(true){
+        //         System.out.println("hello");
+        //         break outer;
+        //     }
+        // }
     }
 }
