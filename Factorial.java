@@ -13,7 +13,7 @@ public class Factorial {
             fact *= i;
         }
 
-        System.out.print("Factorial = "+ fact);
+        System.out.print("Factorial : "+ fact);
     }
     
 }
