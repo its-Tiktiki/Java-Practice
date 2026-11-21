@@ -30,6 +30,7 @@ public class array_prac {
 
         arr[1] = 19;
         String ad = "Hello";
+        System.out.println(ad + arr[1]);
 
 
 
