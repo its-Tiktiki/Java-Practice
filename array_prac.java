@@ -32,9 +32,6 @@ public class array_prac {
         String ad = "Hello";
         System.out.println(ad + arr[1]);
 
-
-
-
     }
     
 }
