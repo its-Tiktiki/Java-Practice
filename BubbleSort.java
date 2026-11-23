@@ -1,7 +1,17 @@
+import java.util.Scanner;
 public class BubbleSort {
     public static void main(String[] args){
 
-        int arr[] = {7, 8, 3, 1, 2};
+        Scanner sc = new Scanner(System.in);
+        int arr[];
+        
+        System.out.print("Enter lenght of array: ");
+        arr = new int[sc.nextInt()];
+
+        for(int i = 0; i < arr.length; ++i){
+            System.out.print("Enter arr["+i+"] = ");
+            arr[i] = sc.nextInt();
+        }
 
         // bubble sort
         // time complexity = O(n^2)
