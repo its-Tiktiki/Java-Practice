@@ -17,5 +17,7 @@ public class FunctionPractice {
         // function call
         System.out.println("Sum = " + Sum(i, j));
 
+        return; // optional
+
     }
 }
