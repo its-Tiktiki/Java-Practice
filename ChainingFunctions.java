@@ -33,6 +33,12 @@ public class ChainingFunctions {
 
     static void l(){
         System.out.println("inside l fucntion.");
+        f();
+        System.out.println("function f backtracting.....");
+    }
+
+    static void f(){
+        System.out.println("inside f function.");
     }
 
 }
