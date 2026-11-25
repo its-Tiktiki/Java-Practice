@@ -7,7 +7,7 @@ public class ChainingFunctions {
     public static void main() {
         System.out.println("inside main function.");
         n();
-        System.out.println("function main backtracking...");  
+        System.out.println("function main backtracking..");  
     }
 
     
@@ -21,13 +21,13 @@ public class ChainingFunctions {
     static void m(){
         System.out.println("inside m function");
         k();
-        System.out.println("function m backtracking...");
+        System.out.println("function m backtracking....");
     }
 
     static void k(){
         System.out.println("Inside k functing.");
         l();
-        System.out.println("function l backtracking...");
+        System.out.println("function l backtracking....");
 
     }
 
