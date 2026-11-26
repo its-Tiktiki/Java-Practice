@@ -1,3 +1,4 @@
+package Function;
 public class ChainingFunctions {
     public static void main(String[] args) {
         main();

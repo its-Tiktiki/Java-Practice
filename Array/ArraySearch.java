@@ -1,3 +1,4 @@
+package Array;
 import java.util.Scanner;
 public class ArraySearch {
     public static void main(String[] args){

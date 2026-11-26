@@ -1,3 +1,4 @@
+package Array;
 class ArrayAdd{
     public static void main(String[] args){
         int[][] arr1 = {
